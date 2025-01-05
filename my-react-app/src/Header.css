@@ -1,0 +1,34 @@
+/* Styles pour le header */
+.header {
+    position: fixed; /* Fixé en haut de la page */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Couleur sombre */
+    color: white;
+    display: flex;
+    justify-content: center; /* Centrer le contenu */
+    align-items: center; /* Centrer verticalement */
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optionnel : petite ombre */
+    z-index: 1000; /* Au-dessus du contenu principal */
+}
+
+/* Navigation et boutons */
+.nav {
+    display: flex;
+    gap: 15px; /* Espacement entre les liens */
+}
+
+.btn {
+    color: white;
+    text-decoration: none; /* Pas de soulignement */
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #555; /* Couleur de fond des boutons */
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #777; /* Couleur au survol */
+}

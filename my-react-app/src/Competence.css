@@ -1,0 +1,49 @@
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  section h2 {
+    color: #0044cc;
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  
+  section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+    
+    color: #000000;
+  }
+  
+  .skills li {
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  
+  /* Expérience Professionnelle */
+  .experience-item {
+    background-color: #ffffff;
+    margin: 15px 0;
+    padding: 20px;
+    border-left: 5px solid #0044cc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+  }
+  
+  .experience-item h3 {
+    color: #0044cc;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }

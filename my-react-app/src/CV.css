@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    margin-top:  50%;
+    justify-content: center;  /* Centrer l'image horizontalement */
+    align-items: center;  /* Centrer l'image verticalement */
+    height: 100vh;  /* Utiliser toute la hauteur de la fenêtre */
+    overflow: hidden;  /* Empêcher le débordement de l'image */
+  }
+
+  .cv-image {
+    height: 100%;  /* L'image prend toute la hauteur disponible */
+    width: auto;  /* La largeur de l'image s'adapte automatiquement */
+  }
+
+  .textCV {
+    position: absolute;
+    top: 8%; /* Adjust the position from the top */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 3em; /* Adjust the font size as needed */
+    font-weight: bold;
+    text-align: center;
+    z-index: 10; /* Ensure the text is above the image */
+  }

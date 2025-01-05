@@ -14,37 +14,50 @@ body {
   height: 100vh;
 }
 
-.container {
-  text-align: center;
+
+/* Footer container */
+footer {
+  margin-top: auto; /* Force le footer à se placer en bas */
+  background-color: #333; /* Couleur sombre */
+  color: white;
+  padding: 20px 0;
+  text-align: center; /* Centrer le texte */
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Ombre subtile en haut du footer */
 }
 
-header h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+/* Container pour les liens de contact */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.button-container {
-  margin-top: 20px;
+/* Liens de contact */
+.contact-links {
+  display: flex;
+  gap: 20px; /* Espacement entre les liens */
+  margin-top: 10px;
 }
 
-.button {
-  display: inline-block;
-  padding: 15px 30px;
-  margin: 10px;
-  font-size: 1.2em;
-  color: #fff;
-  background-color: #4caf50;
+/* Style des liens de contact */
+.contact-link {
+  color: white;
+  text-decoration: none; /* Pas de soulignement */
+  display: flex;
+  align-items: center;
+  padding: 10px;
   border-radius: 5px;
-  text-decoration: none;
-  transition: transform 0.3s, background-color 0.3s;
+  background-color: #555;
+  transition: background-color 0.3s ease;
 }
 
-.button:hover {
-  background-color: #45a049;
-  transform: scale(1.1);
+.contact-link:hover {
+  background-color: #777; /* Changer la couleur au survol */
 }
 
-.button:active {
-  background-color: #3e8e41;
+/* Icônes */
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px; /* Espacement entre l'icône et le texte */
 }
