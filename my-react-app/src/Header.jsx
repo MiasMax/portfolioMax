@@ -6,7 +6,8 @@ function Header() {
     return (
         <header className="header">
             <nav className="nav">
-                <Link to="/home" className="btn">home</Link>
+                <Link to="/homeAnglais" className="btn">Abouts Anglais</Link>
+                <Link to="/home" className="btn">Abouts</Link>
                 <Link to="/Competence" className="btn">Competence</Link>
                 <Link to="/cv" className="btn">cv</Link>
                 <Link to="/project" className="btn">project</Link>

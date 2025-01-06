@@ -10,6 +10,7 @@ import Header from './Header.jsx';
 import Competence from './Competence.jsx';
 import CV from './CV.jsx';
 import Project from './Project.jsx';
+import HomeAnglais from './homeAnglais.jsx';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
                 <Route path="/competence" element={<Competence/>} />
                 <Route path="/cv" element={<CV/>} />
                 <Route path="/project" element={<Project/>} />
+                <Route path="/homeAnglais" element={<HomeAnglais/>} />
             </Routes>
         </BrowserRouter>
       
