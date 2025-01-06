@@ -15,7 +15,7 @@ import HomeAnglais from './homeAnglais.jsx';
 function App() {
   return (
     <>        
-        <BrowserRouter basename="/">
+        <BrowserRouter basename="/portfolioMax/">
             <Header />
             <Routes>
                 <Route path="/" element={<Home/>} />
